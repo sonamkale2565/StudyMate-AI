@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Dashboard from "./components/Dashboard";
 import AITools from "./components/AITools";
 import TaskPlanner from "./components/TaskPlanner";
+import Notes from "./components/Notes";
 
 function App(){
 
@@ -20,6 +21,7 @@ function App(){
       <AITools />
       
       <TaskPlanner />
+      <Notes />
 
     </div>
 
