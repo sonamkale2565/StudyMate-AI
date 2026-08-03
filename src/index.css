@@ -122,3 +122,30 @@ body{
 }
 
 }
+.ai-section{
+  padding:50px;
+  text-align:center;
+}
+
+
+.ai-cards{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  margin-top:30px;
+  flex-wrap:wrap;
+}
+
+
+.ai-card{
+  background:white;
+  width:250px;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+.ai-card h3{
+  margin-bottom:15px;
+}
