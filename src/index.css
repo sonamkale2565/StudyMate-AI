@@ -182,4 +182,84 @@ body{
   padding:25px;
 }
 
+
+.planner{
+
+padding:50px;
+
+text-align:center;
+
+}
+
+
+.task-input{
+
+margin:30px;
+
+}
+
+
+.task-input input{
+
+padding:12px;
+
+width:250px;
+
+border-radius:8px;
+
+border:1px solid #ccc;
+
+}
+
+
+.task-input button{
+
+padding:12px 20px;
+
+margin-left:10px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+}
+
+
+.task-card{
+
+background:white;
+
+width:300px;
+
+margin:15px auto;
+
+padding:20px;
+
+border-radius:10px;
+
+display:flex;
+
+justify-content:space-between;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.task-card button{
+
+background:red;
+
+color:white;
+
+border:none;
+
+padding:8px;
+
+border-radius:5px;
+
 }
