@@ -15,6 +15,7 @@ function App(){
     <div>
 
       <Navbar />
+      <ThemeToggle />
 
       <Hero />
 
@@ -25,7 +26,7 @@ function App(){
       <TaskPlanner />
       <Notes />
       <Pomodoro />
-      <ThemeToggle />
+      
 
     </div>
 
