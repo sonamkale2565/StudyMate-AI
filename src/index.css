@@ -453,5 +453,31 @@ cursor:pointer;
 background:#2563eb;
 
 }
+  .dark{
+
+background:#0f172a;
+
+color:white;
+
+}
+
+
+.dark .card,
+.dark .ai-card,
+.dark .task-card,
+.dark .note-card{
+
+background:#1e293b;
+
+color:white;
+
+}
+
+
+.dark .pomodoro button{
+
+background:#2563eb;
+
+}
 
   
