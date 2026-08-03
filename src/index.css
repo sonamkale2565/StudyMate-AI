@@ -407,5 +407,51 @@ border-radius:5px;
 cursor:pointer;
 
 }
+  /* Pomodoro Timer */
+
+.pomodoro{
+
+padding:50px;
+
+text-align:center;
+
+}
+
+
+.pomodoro h1{
+
+font-size:50px;
+
+margin:25px;
+
+color:#2563eb;
+
+}
+
+
+.pomodoro button{
+
+padding:12px 25px;
+
+margin:10px;
+
+border:none;
+
+border-radius:8px;
+
+background:#1e293b;
+
+color:white;
+
+cursor:pointer;
+
+}
+
+
+.pomodoro button:hover{
+
+background:#2563eb;
+
+}
 
   
