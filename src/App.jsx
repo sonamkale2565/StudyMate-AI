@@ -5,6 +5,7 @@ import Dashboard from "./components/Dashboard";
 import AITools from "./components/AITools";
 import TaskPlanner from "./components/TaskPlanner";
 import Notes from "./components/Notes";
+import Pomodoro from "./components/Pomodoro";
 
 function App(){
 
@@ -22,6 +23,7 @@ function App(){
       
       <TaskPlanner />
       <Notes />
+      <Pomodoro />
 
     </div>
 
