@@ -26,7 +26,7 @@ StudyMate AI is a student productivity website designed to help students manage 
 The purpose of this project is to create a simple and useful study companion that helps students organize their daily learning activities and improve productivity.
 
 ## 🌐 Live Demo
-
+https://sonamkale2565.github.io/StudyMate-AI/
 
 ## 👩‍💻 Author
 
