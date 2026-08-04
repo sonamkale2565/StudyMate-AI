@@ -1,8 +1,5 @@
 let completedTasks = 0;
 
-
-// Task Planner
-
 function addTask(){
 
     let input = document.getElementById("taskInput");
@@ -13,37 +10,31 @@ function addTask(){
         return;
     }
 
-
     let li = document.createElement("li");
-
 
     li.innerHTML = `
         ${task}
-        <button onclick="completeTask(this)">
+        <button class="completeBtn">
         Complete
         </button>
     `;
 
-
     document.getElementById("taskList").appendChild(li);
 
-
-    input.value="";
-
-}
+    input.value = "";
 
 
+    li.querySelector(".completeBtn").onclick = function(){
 
-function completeTask(button){
+        li.remove();
 
-    button.parentElement.remove();
+        completedTasks++;
 
-    completedTasks++;
+        document.getElementById("taskCount").innerHTML = completedTasks;
 
-    document.getElementById("taskCount").innerHTML = completedTasks;
+    };
 
 }
-
 
 
 
