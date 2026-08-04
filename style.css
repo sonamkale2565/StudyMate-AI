@@ -181,5 +181,28 @@ footer{
 input,textarea{
     width:90%;
 }
+}
 
+.progress-box{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.progress-box div{
+    background:white;
+    padding:25px;
+    width:220px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.progress-box h3{
+    color:#4f46e5;
+}
+
+.progress-box p{
+    font-size:30px;
+    margin-top:10px;
 }
