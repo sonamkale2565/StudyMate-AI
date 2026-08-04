@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7ff;
+    color:#222;
+    transition:0.3s;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#ffffff;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.navbar h2{
+    color:#4f46e5;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+#themeBtn{
+    border:none;
+    padding:10px;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#6366f1,#8b5cf6);
+    color:white;
+}
+
+.hero h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:600px;
+    margin:auto;
+    font-size:18px;
+}
+
+
+.start-btn{
+    margin-top:30px;
+    padding:12px 30px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+
+section{
+    padding:50px 8%;
+    text-align:center;
+}
+
+
+.task-box{
+    margin:25px auto;
+}
+
+input,textarea{
+    width:60%;
+    padding:15px;
+    border-radius:10px;
+    border:1px solid #ccc;
+    outline:none;
+}
+
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    background:#4f46e5;
+    color:white;
+    cursor:pointer;
+}
+
+
+#taskList{
+    list-style:none;
+    margin-top:20px;
+}
+
+
+#taskList li{
+    background:white;
+    padding:15px;
+    margin:10px;
+    border-radius:10px;
+}
+
+
+textarea{
+    height:150px;
+    display:block;
+    margin:20px auto;
+}
+
+
+#timer{
+    font-size:50px;
+    margin:20px;
+}
+
+
+.tool-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+
+.card{
+    background:white;
+    width:250px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+    color:white;
+}
+
+
+.dark{
+    background:#111827;
+    color:white;
+}
+
+
+.dark .navbar,
+.dark .card,
+.dark #taskList li{
+    background:#1f2937;
+    color:white;
+}
+
+
+@media(max-width:768px){
+
+.nav-links{
+    display:none;
+}
+
+.hero h1{
+    font-size:32px;
+}
+
+input,textarea{
+    width:90%;
+}
+
+}
