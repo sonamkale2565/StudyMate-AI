@@ -162,7 +162,8 @@ footer{
 
 .dark .navbar,
 .dark .card,
-.dark #taskList li{
+.dark #taskList li,
+.dark .progress-box div{
     background:#1f2937;
     color:white;
 }
@@ -202,7 +203,10 @@ input,textarea{
     color:#4f46e5;
 }
 
-.progress-box p{
-    font-size:30px;
-    margin-top:10px;
+.progress-box div p{
+    color:#222;
+}
+
+.dark .progress-box div p{
+    color:white;
 }
